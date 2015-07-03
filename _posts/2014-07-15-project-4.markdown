@@ -7,9 +7,9 @@ date: 2014-07-15
 img: whereto.gif
 thumbnail: whereto-thumbnail.gif
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: March 2015
+link: http://where-to.herokuapp.com
+source: https://github.com/jjparseghian/where_to
+description: Where To is an app that encourages users to explore and share images from their previous trips. Along with the picture they can add a title, where it was taken, and a decription of their experience! Its a great way to get to see the world through other peoples eyes.
 
 ---

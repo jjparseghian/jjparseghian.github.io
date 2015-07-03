@@ -1,6 +1,6 @@
 ---
 title: Riddle Me This
-subtitle: Ruby on Rails, RSpec
+subtitle: Ruby on Rails, RSpec, AJAX, CSS
 layout: default
 modal-id: 2
 date: 2014-07-17
@@ -8,8 +8,8 @@ img: riddlemethis.png
 thumbnail: riddlemethis-thumbnail.png
 alt: image-alt
 project-date: March 2015
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+link: http://riddlemethis.herokuapp.com
+source: https://github.com/sagararathi/riddle_me_this
+description: A Rails application that creatively mimics Stack Overflow. Users can post, solve, vote and comment on riddles. Emphasis on agile development and Test Driven Development.
 
 ---

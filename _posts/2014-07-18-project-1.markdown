@@ -1,6 +1,6 @@
 ---
-title: Rebase
-subtitle: Meteor.js, MongoDB, Web Audio API
+title: Rebass
+subtitle: Meteor.js, MongoDB, Amazon S3, Web Audio API, Basscss
 layout: default
 modal-id: 1
 date: 2014-07-18
@@ -8,8 +8,8 @@ img: rebase.png
 thumbnail: rebase-thumbnail.png
 alt: image-alt
 project-date: March 2015
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+link: http://rebase.meteor.com
+source: https://github.com/jjparseghian/Rebass
+description: Rebass is a lightweight app for collaborative music creation built in Meteor.js. Users can upload mp3 sound clips, edit clip timing and arrangements, and save versions of their tracks to revert to at a later time.
 
 ---
