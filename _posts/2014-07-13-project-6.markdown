@@ -8,8 +8,8 @@ img: saysong.png
 thumbnail: saysong-thumbnail.png
 alt: image-alt
 project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+link: /say-song
+source: https://github.com/jjparseghian/north-american-hipster
+description: SaySong was built during Spotify's March Hackathon. It's a application that allows users to convert there chats to sound. We used Firebase to implement the chat feature and timbre.js to create the sounds by converting the text in the chat to freqency values.
 
 ---
