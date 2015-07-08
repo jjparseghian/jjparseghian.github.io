@@ -1,0 +1,46 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+canvas {
+    position: absolute;
+    background-color: antiquewhite;
+}
+
+#button-container {
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: 10%;
+}
+
+.hide {
+  display: none;
+}
+
+#button {
+  display: table;
+  position: relative;
+  margin: 0px auto;
+}
+
+#solve, #reset {
+  padding: 20px;
+  font-size: 1em;
+}
+
+#content p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  /*font-style: italic;*/
+  font-size: 1.2em;
+}
+
+#content p span {
+  font-style: italic;
+}
