@@ -1,0 +1,15 @@
+---
+title: Connect The Dots
+subtitle: HTML5 Canvas, JavaScript, CSS
+layout: default
+modal-id: 7
+date: 2015-07-08
+img: connect-the-dots.png
+thumbnail: connect-the-dots-thumbnail.png
+alt: image-alt
+project-date: April 2015
+link: /connect-the-dots
+source: https://github.com/jjparseghian/Rebass
+description: Web-based solver for "connect the dots". Users will be able to take one of 2 actions. (1) They can click on the "Solve" button to solve the current connect-the-dots puzzle. (2) They can click elsewhere on the page (anywhere outside of the "Solve" button) to add an additional dot to the page. The challenge here was to draw N dots and N lines to connect them, without any of the lines intersecting.
+
+---
