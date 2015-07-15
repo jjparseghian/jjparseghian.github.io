@@ -18,21 +18,16 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                // url: "http://jparseghian-contact-form.herokuapp.com/send_email",
-                url: "https://www.google.com/recaptcha/api/siteverify",
+                url: "http://jparseghian-contact-form.herokuapp.com/send_email",
                 type: "POST",
                 data: {
-                    secret: "6LdemwkTAAAAAL-qNOBazx8zJrEYesUKSpKLNcaG",
-                    response: window.grecaptcha.getResponse()
+                    name: name,
+                    phone: phone,
+                    email: email,
+                    message: message
                 },
-                // data: {
-                //     name: name,
-                //     phone: phone,
-                //     email: email,
-                //     message: message
-                // },
-                // cache: false,
-                success: function(response) {
+                cache: false,
+                success: function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -44,9 +39,8 @@ $(function() {
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
-                    console.log("success", response);
                 },
-                error: function(error) {
+                error: function() {
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -55,7 +49,6 @@ $(function() {
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
-                    console.log("error", error);
                 },
             })
         },
