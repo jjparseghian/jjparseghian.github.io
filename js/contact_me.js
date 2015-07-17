@@ -43,6 +43,8 @@ $(function() {
                             //clear all fields
                             $('#contactForm').trigger("reset");
                             console.log("success", response);
+                            window.grecaptcha.reset();
+                            $(".g-recaptcha").hide();
                             break;
                         case 'failure_email':
                             // Fail message
@@ -85,6 +87,10 @@ $(function() {
         filter: function() {
             return $(this).is(":visible");
         },
+    });
+
+    $("#contactForm").on('click', function(){
+      $(".g-recaptcha").show();
     });
 
     $("a[data-toggle=\"tab\"]").click(function(e) {
